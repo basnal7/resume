@@ -1,0 +1,309 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.resume {
+  width: 50%;
+  margin: auto;
+  height: auto;
+  margin-top: 50px;
+  border: 1px solid #d25400;
+}
+
+.resume .topbar {
+  height: 200px;
+  width: 100%;
+  background: -webkit-gradient(linear, left top, right top, color-stop(70%, #c5c1c1), color-stop(30%, #cabebe));
+  background: linear-gradient(to right, #c5c1c1 70%, #cabebe 30%);
+  z-index: 999999;
+  opacity: 1;
+  border-bottom: 1px solid black;
+}
+
+.resume .topbar .top {
+  background-color: #5c5858;
+  height: 40px;
+}
+
+.resume .topbar .top2 {
+  height: 100%;
+}
+
+.resume .main-resume {
+  width: 90%;
+  margin: auto;
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 50px;
+}
+
+.resume .main-resume .left {
+  width: 40%;
+  background-color: #a7a3a34a;
+  height: 650px;
+  margin-top: 40px;
+}
+
+.resume .main-resume .left .img {
+  text-align: center;
+  margin: auto;
+  background: white;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  margin-top: -50px;
+  border: 2px solid black;
+}
+
+.resume .main-resume .left .img img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  padding-top: 5px;
+}
+
+.resume .main-resume .right {
+  width: 60%;
+  background-color: white;
+  height: 650px;
+}
+
+.left .education {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  margin-top: 20px;
+  border-bottom: 2px solid gray;
+  height: 228px;
+}
+
+.left .education h1 {
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 3.3px;
+  display: block;
+}
+
+.left .education h2 {
+  font-size: 16px;
+  float: left;
+  letter-spacing: 0.3px;
+  display: block;
+}
+
+.left .education ul {
+  display: block;
+  font-size: 12px;
+  list-style: none;
+  float: left;
+}
+
+.left .exeperince {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  margin-top: 20px;
+  border-bottom: 2px solid gray;
+  height: 200px;
+}
+
+.left .exeperince h1 {
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 3.3px;
+}
+
+.left .exeperince ul {
+  font-size: 12px;
+}
+
+.left .reference {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  margin-top: 20px;
+  border-bottom: 2px solid gray;
+  height: 100px;
+}
+
+.left .reference h1 {
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 3.3px;
+}
+
+.left .reference ul {
+  font-size: 12px;
+}
+
+.right {
+  margin-top: -20px;
+}
+
+.right .about {
+  text-align: justify;
+  border-bottom: 2px solid #d25400;
+  padding-bottom: 12px;
+}
+
+.right p {
+  font-size: 12px;
+}
+
+.right .experi {
+  margin-top: 20px;
+}
+
+.right .experi h1 {
+  letter-spacing: 4.9px;
+}
+
+.right .experi .experi1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 40px;
+}
+
+.right .experi .experi1 span {
+  width: 10px;
+  height: 10px;
+  background: #d25400;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.right .experi .experi1 .line {
+  height: 143px;
+  width: 3px;
+  background-color: black;
+  margin-left: 3px;
+  margin-top: 11px;
+}
+
+.right .experi .experi1 .data {
+  border-bottom: 2px solid #d25400;
+}
+
+.right .experi .experi1 .data h1 {
+  font-size: 16px;
+  margin-top: -10px;
+}
+
+.right .experi .experi1 .data h5 {
+  margin-top: -10px;
+}
+
+.right .experi .experi1 .data p {
+  font-size: 12px;
+  margin-top: -20px;
+}
+
+.right .experi {
+  margin-top: 20px;
+}
+
+.right .experi h1 {
+  letter-spacing: 4.9px;
+}
+
+.right .experi .experi2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 40px;
+}
+
+.right .experi .experi2 span {
+  width: 10px;
+  height: 10px;
+  background: #d25400;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.right .experi .experi2 .line {
+  height: 143px;
+  width: 3px;
+  background-color: black;
+  margin-left: 3px;
+  margin-top: 11px;
+}
+
+.right .experi .experi2 .data {
+  border-bottom: 2px solid #d25400;
+  margin-top: 19px;
+}
+
+.right .experi .experi2 .data h1 {
+  font-size: 16px;
+  margin-top: -10px;
+}
+
+.right .experi .experi2 .data h5 {
+  margin-top: -10px;
+}
+
+.right .experi .experi2 .data p {
+  font-size: 12px;
+  margin-top: -20px;
+}
+
+.right .experi {
+  margin-top: 20px;
+}
+
+.right .experi h1 {
+  letter-spacing: 4.9px;
+}
+
+.right .experi .experi3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 40px;
+}
+
+.right .experi .experi3 span {
+  width: 10px;
+  height: 10px;
+  background: #d25400;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.right .experi .experi3 .line {
+  height: 143px;
+  width: 3px;
+  background-color: black;
+  margin-left: 3px;
+  margin-top: 11px;
+}
+
+.right .experi .experi3 .data {
+  margin-top: 19px;
+}
+
+.right .experi .experi3 .data h1 {
+  font-size: 16px;
+  margin-top: -10px;
+}
+
+.right .experi .experi3 .data h5 {
+  margin-top: -10px;
+}
+
+.right .experi .experi3 .data p {
+  font-size: 12px;
+  margin-top: -20px;
+}
+/*# sourceMappingURL=main.css.map */
